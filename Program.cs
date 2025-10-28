@@ -259,9 +259,15 @@ Console.WriteLine($"Number of Human characters in the Mario series: {marioHumans
 
 // List the character(s) in the Mario series that are Human species - return character name only.
 var marioHumans = characters
-    .Where(c => c.Series == "Mario" && c.Species != null && c.Species.Contains("Human"))
+    .Where(c => c.Series != null && c.Series.Contains("Mario") 
+                && c.Species != null && c.Species.Contains("Human"))
     .Select(c => c.Name)
     .ToList();
+
+foreach (var name in marioHumans)
+{
+    Console.WriteLine(name);
+}
 
 // How many character(s) in the Mario series are Koopa species?
 int marioKoopasCount = characters
