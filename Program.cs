@@ -260,6 +260,9 @@ var marioHumans = characters
     .Select(c => c.Name)
     .ToList();
 
+// How many character(s) in the Mario series are Koopa species?
+int marioKoopasCount = characters
+    .Count(c => c.Series == "Mario" && c.Species != null && c.Species.Contains("Koopa"));
 
 
 
