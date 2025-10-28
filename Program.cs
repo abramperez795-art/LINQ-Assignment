@@ -202,6 +202,19 @@ bool hasSnowmadKingAlias = characters
 
 Console.WriteLine($"Do any character(s) have an alias of Snowmad King? {hasSnowmadKingAlias}");
 
+//  List the character(s) that have an alias of Snowmad King - return character name and alias only.
+var snowmadKingCharacters = characters
+    .Where(c => c.Alias != null && c.Alias.Contains("Snowmad King"))
+    .Select(c => new
+    {
+        c.Name,
+        Alias = string.Join(", ", c.Alias)
+    });
+
+foreach (var character in snowmadKingCharacters)
+{
+    Console.WriteLine($"Name: {character.Name}, Alias: {character.Alias}");
+}
 
 
 
