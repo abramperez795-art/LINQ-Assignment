@@ -46,7 +46,15 @@ int count1981Mario = characters
     .Count(c => c.YearCreated == 1981 && c.Series.Contains("Mario"));
 Console.WriteLine($"There are {count1981Mario} characters created in 1981 in the Mario series");
 
+//List the character(s) created in that 1981 (Mario series) - return character name only.
+var names1981Mario = characters
+    .Where(c => c.YearCreated == 1981 && c.Series.Contains("Mario"))
+    .Select(c => c.Name);
 
+foreach (var name in names1981Mario)
+{
+    Console.WriteLine(name);
+}
 
 
 
