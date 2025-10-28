@@ -126,6 +126,11 @@ foreach (var character in charactersWithoutAlias)
     Console.WriteLine($"Name: {character.Name}, Alias: {character.Alias}, Series: {character.Series}");
 }
 
+//  Are there any character(s) with no alias (Mario series)?
+bool hasNoAliasMario = characters
+    .Any(c => c.Series.Contains("Mario") && (c.Alias == null || !c.Alias.Any() || c.Alias.All(string.IsNullOrWhiteSpace)));
+
+Console.WriteLine(hasNoAliasMario ? "Yes, there are Mario characters with no alias." : "No, all Mario characters have aliases.");
 
 
 
