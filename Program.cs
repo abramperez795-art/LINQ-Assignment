@@ -251,7 +251,11 @@ int countKremling = characters
 
 // How many character(s) in the Mario series are Human species?
 int marioHumansCount = characters
-    .Count(c => c.Series == "Mario" && c.Species != null && c.Species.Contains("Human"));
+    .Count(c => c.Series != null && c.Series.Contains("Mario") 
+                && c.Species != null && c.Species.Contains("Human"));
+
+Console.WriteLine($"Number of Human characters in the Mario series: {marioHumansCount}");
+
 
 // List the character(s) in the Mario series that are Human species - return character name only.
 var marioHumans = characters
