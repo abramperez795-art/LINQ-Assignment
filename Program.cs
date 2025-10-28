@@ -77,7 +77,15 @@ int countDK64 = characters
 
 Console.WriteLine($"There are {countDK64} characters who made their first appearance in Donkey Kong 64.");
 
+// List the character(s) that made their first appearance in Donkey Kong 64 - return character name only.
+var namesDK64 = characters
+    .Where(c => c.FirstAppearance == "Donkey Kong 64")
+    .Select(c => c.Name);
 
+foreach (var name in namesDK64)
+{
+    Console.WriteLine(name);
+}
 
 
 
