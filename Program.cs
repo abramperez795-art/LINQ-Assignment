@@ -181,7 +181,20 @@ int countNoAliasDonkeyKong = characters
 
 Console.WriteLine($"how many character(s) with no alias (Donkey Kong series)? {countNoAliasDonkeyKong}");
 
+// List the character(s) with no alias (Donkey Kong series) - return character name and alias only.
 
+var noAliasDonkeyKongCharacters = characters
+    .Where(c => c.Series.Contains("Donkey Kong") && (c.Alias == null || !c.Alias.Any() || c.Alias.All(string.IsNullOrWhiteSpace)))
+    .Select(c => new
+    {
+        c.Name,
+        Alias = c.Alias == null ? "(null)" : string.Join(", ", c.Alias)
+    });
+
+foreach (var character in noAliasDonkeyKongCharacters)
+{
+    Console.WriteLine($"Name: {character.Name}, Alias: {character.Alias}");
+}
 
 
 
