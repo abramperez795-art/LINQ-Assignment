@@ -250,8 +250,15 @@ var kremlings = characters
     .Select(c => c.Name)
     .ToList();
 
+// How many character(s) in the Mario series are Human species?
+int marioHumansCount = characters
+    .Count(c => c.Series == "Mario" && c.Species != null && c.Species.Contains("Human"));
 
-
+// List the character(s) in the Mario series that are Human species - return character name only.
+var marioHumans = characters
+    .Where(c => c.Series == "Mario" && c.Species != null && c.Species.Contains("Human"))
+    .Select(c => c.Name)
+    .ToList();
 
 
 
