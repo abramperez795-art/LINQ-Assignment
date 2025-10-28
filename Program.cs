@@ -56,6 +56,11 @@ foreach (var name in names1981Mario)
     Console.WriteLine(name);
 }
 
+// How many character(s) were created in 1981 (Donkey Kong series)?
+int count1981DonkeyKong = characters
+    .Count(c => c.YearCreated == 1981 && c.Series.Contains("Donkey Kong"));
+Console.WriteLine($"2.There are {count1981DonkeyKong} characters created in 1981 in the Donkey Kong series");
+
 
 
 
