@@ -245,10 +245,9 @@ else
 }
 
 // There are 7 characters with the species of Kremling in the Donkey Kong character data.
-var kremlings = characters
-    .Where(c => c.Series == "Donkey Kong" && c.Species != null && c.Species.Contains("Kremling"))
-    .Select(c => c.Name)
-    .ToList();
+int countKremling = characters
+    .Count(c => c.Species != null && c.Species.Contains("Kremling") 
+                && (c.Alias == null || !c.Alias.Any() || c.Alias.All(a => string.IsNullOrWhiteSpace(a))));
 
 // How many character(s) in the Mario series are Human species?
 int marioHumansCount = characters
