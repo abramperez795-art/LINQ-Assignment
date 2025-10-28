@@ -87,7 +87,23 @@ foreach (var name in namesDK64)
     Console.WriteLine(name);
 }
 
+//Are there any character(s) with no alias (all series)?
 
+var noAliasCharacters = characters
+    .Where(c => c.Alias == null || !c.Alias.Any() || c.Alias.All(a => string.IsNullOrWhiteSpace(a)));
+
+if (noAliasCharacters.Any())
+{
+    Console.WriteLine("There are characters with no alias:");
+    foreach (var character in noAliasCharacters)
+    {
+        Console.WriteLine(character.Name);
+    }
+}
+else
+{
+    Console.WriteLine("All characters have aliases.");
+}
 
 
 
