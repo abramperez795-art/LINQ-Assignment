@@ -271,29 +271,60 @@ foreach (var name in marioHumans)
 
 // How many character(s) in the Mario series are Koopa species?
 int marioKoopasCount = characters
-    .Count(c => c.Series == "Mario" && c.Species != null && c.Species.Contains("Koopa"));
+    .Count(c => c.Series != null && c.Series.Contains("Mario") 
+                && c.Species != null && c.Species.Contains("Koopa"));
+
+Console.WriteLine($"Number of Koopa characters in the Mario series: {marioKoopasCount}");
 
 // List the character(s) in the Mario series that are Koopa species - return character name only.
 var marioKoopas = characters
-    .Where(c => c.Series == "Mario" && c.Species != null && c.Species.Contains("Koopa"))
+    .Where(c => c.Series != null && c.Series.Contains("Mario") 
+                && c.Species != null && c.Species.Contains("Koopa"))
     .Select(c => c.Name)
     .ToList();
 
+foreach (var name in marioKoopas)
+{
+    Console.WriteLine(name);
+}
+
 //  How many character(s) in the Mario series are something other than Human or Koopa species?
 int marioOthersCount = characters
-    .Count(c => c.Series == "Mario" && c.Species != null && !c.Species.Contains("Human") && !c.Species.Contains("Koopa"));
+    .Count(c => c.Series != null && c.Series.Contains("Mario") 
+                && c.Species != null 
+                && !c.Species.Contains("Human") 
+                && !c.Species.Contains("Koopa"));
+
+Console.WriteLine($"Number of other species characters in the Mario series: {marioOthersCount}");
 
 //  List the character(s) in the Mario series that are something other than Human or Koopa species - return character name and species only.
 var marioOthers = characters
-    .Where(c => c.Series == "Mario" && c.Species != null && !c.Species.Contains("Human") && !c.Species.Contains("Koopa"))
-    .Select(c => new { c.Name, Species = string.Join(", ", c.Species) })
+    .Where(c => c.Series != null && c.Series.Contains("Mario") 
+                && c.Species != null 
+                && !c.Species.Contains("Human") 
+                && !c.Species.Contains("Koopa"))
+    .Select(c => new { c.Name, Species = c.Species })
     .ToList();
+
+foreach (var character in marioOthers)
+{
+    Console.WriteLine($"Name: {character.Name}, Species: {character.Species}");
+}
+
 
 // List the character(s) in the Donkey Kong series that are something other than Human or Kong species - return character name and species only?
 var dkOthers = characters
-    .Where(c => c.Series == "Donkey Kong" && c.Species != null && !c.Species.Contains("Human") && !c.Species.Contains("Kong"))
-    .Select(c => new { c.Name, Species = string.Join(", ", c.Species) })
+    .Where(c => c.Series != null && c.Series.Contains("Donkey Kong") 
+                && c.Species != null 
+                && !c.Species.Contains("Human") 
+                && !c.Species.Contains("Kong"))
+    .Select(c => new { c.Name, Species = c.Species })
     .ToList();
+
+foreach (var character in dkOthers)
+{
+    Console.WriteLine($"Name: {character.Name}, Species: {character.Species}");
+}
 
 
 
