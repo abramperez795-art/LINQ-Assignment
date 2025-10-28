@@ -71,6 +71,12 @@ foreach (var name in names1981DonkeyKong)
     Console.WriteLine(name);
 }
 
+// How many character(s) made their first appearance in Donkey Kong 64?
+int countDK64 = characters
+    .Count(c => c.FirstAppearance == "Donkey Kong 64");
+
+Console.WriteLine($"There are {countDK64} characters who made their first appearance in Donkey Kong 64.");
+
 
 
 
