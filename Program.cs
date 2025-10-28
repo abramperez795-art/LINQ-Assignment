@@ -105,6 +105,11 @@ else
     Console.WriteLine("All characters have aliases.");
 }
 
+//How many character(s) with no alias (all series)?
+int countNoAlias = characters
+    .Count(c => c.Alias == null || !c.Alias.Any() || c.Alias.All(a => string.IsNullOrWhiteSpace(a)));
+
+Console.WriteLine($"There are {countNoAlias} characters with no alias across all series.");
 
 
 
