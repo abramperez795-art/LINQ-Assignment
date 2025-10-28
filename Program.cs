@@ -280,6 +280,11 @@ var marioOthers = characters
     .Select(c => new { c.Name, Species = string.Join(", ", c.Species) })
     .ToList();
 
+// List the character(s) in the Donkey Kong series that are something other than Human or Kong species - return character name and species only?
+var dkOthers = characters
+    .Where(c => c.Series == "Donkey Kong" && c.Species != null && !c.Species.Contains("Human") && !c.Species.Contains("Kong"))
+    .Select(c => new { c.Name, Species = string.Join(", ", c.Species) })
+    .ToList();
 
 
 
