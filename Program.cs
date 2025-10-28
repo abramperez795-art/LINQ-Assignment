@@ -196,6 +196,11 @@ foreach (var character in noAliasDonkeyKongCharacters)
     Console.WriteLine($"Name: {character.Name}, Alias: {character.Alias}");
 }
 
+// Do any character(s) have an alias of Snowmad King (return type must be boolean)?
+bool hasSnowmadKingAlias = characters
+    .Any(c => c.Alias != null && c.Alias.Contains("Snowmad King"));
+
+Console.WriteLine($"Do any character(s) have an alias of Snowmad King? {hasSnowmadKingAlias}");
 
 
 
