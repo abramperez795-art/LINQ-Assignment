@@ -1,0 +1,412 @@
+[
+  {
+    "Id": 1,
+    "Name": "Donkey Kong",
+    "Alias": ["DK"],
+    "Description": "King of the jungle",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong",
+    "YearCreated": 1981,
+    "Series": ["Donkey Kong", "Mario"]
+  },
+  {
+    "Id": 2,
+    "Name": "Pauline",
+    "Alias": ["Lady"],
+    "Description": "Damsel in distress",
+    "Species": "Human",
+    "FirstAppearance": "Donkey Kong",
+    "YearCreated": 1981,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 3,
+    "Name": "Stanley",
+    "Alias": ["Stanley the Bugman"],
+    "Description": "Exterminator",
+    "Species": "Human",
+    "FirstAppearance": "Donkey Kong 3",
+    "YearCreated": 1984,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 4,
+    "Name": "Cranky Kong",
+    "Alias": ["Donkey Kong Sr."],
+    "Description": "Grumpy elderly gorilla",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Country",
+    "YearCreated": 1994,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 5,
+    "Name": "Donkey Kong Jr.",
+    "Alias": ["DK Jr.", "Junior"],
+    "Description": "Son of Donkey Kong Sr.",
+    "Species": "Kong",
+    "FirstAppearance": "Junior",
+    "YearCreated": 1982,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 6,
+    "Name": "Diddy Kong",
+    "Alias": [],
+    "Description": "Donkey Kong's trusted friend",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Country",
+    "YearCreated": 1994,
+    "Series": ["Donkey Kong", "Mario"]
+  },
+  {
+    "Id": 7,
+    "Name": "Wrinkly Kong",
+    "Alias": [],
+    "Description": "Wife of Cranky Kong",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Country 2",
+    "YearCreated": 1995,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 8,
+    "Name": "Dixie Kong",
+    "Alias": [],
+    "Description": "Diddy Kong's partner",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Country 2",
+    "YearCreated": 1994,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 9,
+    "Name": "Kiddy Kong",
+    "Alias": ["Dinky Kong"],
+    "Description": "Dixie's 'little cousin' and Chunky Kong's younger brother",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Country 3",
+    "YearCreated": 1996,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 10,
+    "Name": "Tiny Kong",
+    "Alias": [],
+    "Description": "Dixie Kong's younger sister and is a cousin to Chunky Kong and Kiddy Kong",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong 64",
+    "YearCreated": 1999,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 11,
+    "Name": "Chunky Kong",
+    "Alias": [],
+    "Description": "Older brother of Kiddy Kong and cousin of Dixie Kong and Tiny Kong",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong 64",
+    "YearCreated": 1999,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 12,
+    "Name": "Candy Kong",
+    "Alias": [],
+    "Description": "Donkey Kong's girlfriend",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Country",
+    "YearCreated": 1994,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 13,
+    "Name": "Funky Kong",
+    "Alias": [],
+    "Description": "Cool surfer and mechanic",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Country 3",
+    "YearCreated": 1996,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 14,
+    "Name": "Swanky Kong",
+    "Alias": [],
+    "Description": "Game show host and entrepreneur",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Country 2",
+    "YearCreated": 1995,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 15,
+    "Name": "Manky Kong",
+    "Alias": [],
+    "Description": "Distant cousin to the Kong family",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong 64",
+    "YearCreated": 1999,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 16,
+    "Name": "Ghastly King",
+    "Alias": [],
+    "Description": "Head of the Fruit Kingdom Kongs",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Jungle Beat",
+    "YearCreated": 2004,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 17,
+    "Name": "Dread Kong",
+    "Alias": [],
+    "Description": "Ruler of the Banana Kingdom",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Jungle Beat",
+    "YearCreated": 2004,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 18,
+    "Name": "Karate Kong",
+    "Alias": [],
+    "Description": "Ruler of the Pineapple Kingdom",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Jungle Boat",
+    "YearCreated": 2004,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 19,
+    "Name": "Ninja Kong",
+    "Alias": [],
+    "Description": "Ruler of the Durian Kingdom",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Jungle Beat",
+    "YearCreated": 2004,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 20,
+    "Name": "Sumo Kong",
+    "Alias": [],
+    "Description": "Ruler of the Star Fruit Kingdom",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong Jungle Beat",
+    "YearCreated": 2004,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 21,
+    "Name": "King K. Rool",
+    "Alias": [],
+    "Description": "Archnemesis of Donkey Kong and Diddy Kong and the leader of the Kremlings",
+    "Species": "Kremling",
+    "FirstAppearance": "Donkey Kong Country",
+    "YearCreated": 1994,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 22,
+    "Name": "Lanky Kong",
+    "Alias": [],
+    "Description": "Distant cousin to the Kong family",
+    "Species": "Kong",
+    "FirstAppearance": "Donkey Kong 64",
+    "YearCreated": 1999,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 23,
+    "Name": "Klubba",
+    "Alias": [],
+    "Description": "Guards the entrance to the Lost World",
+    "Species": "Kremling",
+    "FirstAppearance": "Donkey Kong Country 2",
+    "YearCreated": 1995,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 24,
+    "Name": "Banana Fairy Queen",
+    "Alias": [],
+    "Description": "Ruler of the banana fairies",
+    "Species": "Fairy",
+    "FirstAppearance": "Donkey Kong 64",
+    "YearCreated": 1999,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 25,
+    "Name": "Lord Fredrik",
+    "Alias": ["Snowmad King"],
+    "Description": "Uses his enchanted blowing horn to throw the entire island into a state of perpetual winter",
+    "Species": "Walrus",
+    "FirstAppearance": "Donkey Kong Country: Tropical Freeze",
+    "YearCreated": 2014,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 26,
+    "Name": "Enguarde the Swordfish",
+    "Alias": [],
+    "Description": "Animal Buddy owned by the Kongs",
+    "Species": "Swordfish",
+    "FirstAppearance": "Donkey Kong Country",
+    "YearCreated": 1994,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 27,
+    "Name": "Kalypso",
+    "Alias": [],
+    "Description": "Tiny Kong's rival",
+    "Species": "Kremling",
+    "FirstAppearance": "Donkey Kong Barrel Blast",
+    "YearCreated": 2007,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 28,
+    "Name": "Kleever",
+    "Alias": [],
+    "Description": "Living cutlass encountered at the end of Crocodile Cauldron",
+    "Species": "Cutlass",
+    "FirstAppearance": "Donkey Kong Country 2",
+    "YearCreated": 1995,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 29,
+    "Name": "Kudgel",
+    "Alias": [],
+    "Description": "Brother of Klubba",
+    "Species": "Kremling",
+    "FirstAppearance": "Donkey Kong Country 2",
+    "YearCreated": 1995,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 30,
+    "Name": "Squawks the Parrot",
+    "Alias": [],
+    "Description": "Animal Buddy",
+    "Species": "Parrot",
+    "FirstAppearance": "Donkey Kong Country",
+    "YearCreated": 1994,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 31,
+    "Name": "Bluey the Walrus",
+    "Alias": [],
+    "Description": "Guardian of Snowflake Mountain",
+    "Species": "Walrus",
+    "FirstAppearance": "Diddy Kong Racing",
+    "YearCreated": 1997,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 32,
+    "Name": "Bubbler the Octopus",
+    "Alias": [],
+    "Description": "Boss of Sherbet Island",
+    "Species": "Octopus",
+    "FirstAppearance": "Diddy Kong Racing",
+    "YearCreated": 1997,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 33,
+    "Name": "K. Lumsy",
+    "Alias": [],
+    "Description": "King K. Kool's younger brother",
+    "Species": "Kremling",
+    "FirstAppearance": "Donkey Kong 64",
+    "YearCreated": 1999,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 34,
+    "Name": "Snide",
+    "Alias": [],
+    "Description": "King K. Rool's chief technician",
+    "Species": "Weasel",
+    "FirstAppearance": "Donkey Kong 64",
+    "YearCreated": 1999,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 35,
+    "Name": "Squitter the Spider",
+    "Alias": [],
+    "Description": "Large, friendly spider",
+    "Species": "Spider",
+    "FirstAppearance": "Donkey Kong Country 2",
+    "YearCreated": 1995,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 36,
+    "Name": "Expresso the Ostrich",
+    "Alias": [],
+    "Description": "Animal Buddy",
+    "Species": "Ostrich",
+    "FirstAppearance": "Donkey Kong Country",
+    "YearCreated": 1994,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 37,
+    "Name": "Scoff",
+    "Alias": [],
+    "Description": "Giant blue hippopotamus",
+    "Species": "Hippopotamus",
+    "FirstAppearance": "Donkey Kong 64",
+    "YearCreated": 1999,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 38,
+    "Name": "Kass",
+    "Alias": [],
+    "Description": "Rival Dixie Kong",
+    "Species": "Kremling",
+    "FirstAppearance": "Donkey Kong Barrel Blast",
+    "YearCreated": 2007,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 39,
+    "Name": "Klump",
+    "Alias": ["Kannon"],
+    "Description": "2nd in command of the Kremling Krew",
+    "Species": "Kremling",
+    "FirstAppearance": "Donkey Kong Country",
+    "YearCreated": 1994,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 40,
+    "Name": "Mad Jack",
+    "Alias": [],
+    "Description": "Boss of Frantic Factory",
+    "Species": "Robot",
+    "FirstAppearance": "Donkey Kong 64",
+    "YearCreated": 1999,
+    "Series": ["Donkey Kong"]
+  },
+  {
+    "Id": 41,
+    "Name": "Krazy Kalimba",
+    "Alias": [],
+    "Description": "Leading member of the Tiki Tak Tribe",
+    "Species": "Tiki",
+    "FirstAppearance": "Donkey Kong Country Returns",
+    "YearCreated": 2010,
+    "Series": ["Donkey Kong"]
+  }
+]

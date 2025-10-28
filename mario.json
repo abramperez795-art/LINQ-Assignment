@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 42,
+    "Name": "Mario",
+    "Alias": ["Mr. Video", "Jumpman", "Mario Mario", "Super Mario"],
+    "Description": "Hero of the Mushroom Kingdom",
+    "Species": "Human",
+    "FirstAppearance": "Donkey Kong",
+    "YearCreated": 1981,
+    "Series": ["Donkey Kong", "Mario"]
+  },
+  {
+    "Id": 43,
+    "Name": "Luigi",
+    "Alias": ["Luigi Mario"],
+    "Description": "Mario's twin brother",
+    "Species": "Human",
+    "FirstAppearance": "Mario Bros.",
+    "YearCreated": 1983,
+    "Series": ["Mario"]
+  },
+  {
+    "Id": 44,
+    "Name": "Bowser",
+    "Alias": ["Bowser Sr.", "King Koopa"],
+    "Description": "King of the Koopas",
+    "Species": "Koopa",
+    "FirstAppearance": "Super Mario Bros.",
+    "YearCreated": 1985,
+    "Series": ["Mario"]
+  },
+  {
+    "Id": 45,
+    "Name": "Princess Peach",
+    "Alias": ["Princess Peach Toadstool"],
+    "Description": "Mario's love interest",
+    "Species": "Human",
+    "FirstAppearance": "Super Mario Bros.",
+    "YearCreated": 1985,
+    "Series": ["Mario"]
+  },
+  {
+    "Id": 46,
+    "Name": "Bowser Jr.",
+    "Alias": ["Bowser Koopa Jr."],
+    "Description": "Heir to the Koopa throne",
+    "Species": "Koopa",
+    "FirstAppearance": "Super Mario Sunshine",
+    "YearCreated": 2002,
+    "Series": ["Mario"]
+  },
+  {
+    "Id": 47,
+    "Name": "Princess Daisy",
+    "Alias": ["Daisy"],
+    "Description": "Princess of Sarasaland",
+    "Species": "Human",
+    "FirstAppearance": "Super Mario Land",
+    "YearCreated": 1989,
+    "Series": ["Mario"]
+  },
+  {
+    "Id": 48,
+    "Name": "Toad",
+    "Alias": [],
+    "Description": "Pricess Peach's companion",
+    "Species": "Toad",
+    "FirstAppearance": "Super Mario Bros.",
+    "YearCreated": 1988,
+    "Series": ["Mario"]
+  },
+  {
+    "Id": 49,
+    "Name": "Yoshi",
+    "Alias": ["Yossi", "Green Yoshi"],
+    "Description": "Mario's companion",
+    "Species": "Yoshi",
+    "FirstAppearance": "Super Mario World",
+    "YearCreated": 1990,
+    "Series": ["Mario"]
+  },
+  {
+    "Id": 50,
+    "Name": "Wario",
+    "Alias": [],
+    "Description": "Mario's 'evil twin'",
+    "Species": "Human",
+    "FirstAppearance": "Super Mario Land 2",
+    "YearCreated": 1992,
+    "Series": ["Mario"]
+  },
+  {
+    "Id": 51,
+    "Name": "Waluigi",
+    "Alias": [],
+    "Description": "Wario's pal & accomplice",
+    "Species": "Human",
+    "FirstAppearance": "Mario Tennis",
+    "YearCreated": 2000,
+    "Series": ["Mario"]
+  },
+  {
+    "Id": 52,
+    "Name": "Rosalina",
+    "Alias": [],
+    "Description": "Protector of the Luma creatures",
+    "Species": "Human",
+    "FirstAppearance": "Super Mario Galaxy",
+    "YearCreated": 2007,
+    "Series": ["Mario"]
+  }
+]
