@@ -169,6 +169,12 @@ foreach (var character in marioCharactersNoAlias)
 }
 
 
+//  Are there any character(s) with no alias (Donkey Kong series)?
+bool hasNoAliasDonkeyKong = characters
+    .Any(c => c.Series.Contains("Donkey Kong") && (c.Alias == null || !c.Alias.Any() || c.Alias.All(string.IsNullOrWhiteSpace)));
+
+Console.WriteLine(hasNoAliasDonkeyKong ? "Yes, there are Donkey Kong characters with no alias." : "No, all Donkey Kong characters have aliases.");
+
 
 
 
