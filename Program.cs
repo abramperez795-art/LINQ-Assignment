@@ -244,7 +244,11 @@ else
     Console.WriteLine("No characters found with alias 'Winter Kong'.");
 }
 
-
+// There are 7 characters with the species of Kremling in the Donkey Kong character data.
+var kremlings = characters
+    .Where(c => c.Series == "Donkey Kong" && c.Species != null && c.Species.Contains("Kremling"))
+    .Select(c => c.Name)
+    .ToList();
 
 
 
