@@ -175,6 +175,11 @@ bool hasNoAliasDonkeyKong = characters
 
 Console.WriteLine(hasNoAliasDonkeyKong ? "Yes, there are Donkey Kong characters with no alias." : "No, all Donkey Kong characters have aliases.");
 
+// how many character(s) with no alias (Donkey Kong series)?
+int countNoAliasDonkeyKong = characters
+    .Count(c => c.Series.Contains("Donkey Kong") && (c.Alias == null || !c.Alias.Any() || c.Alias.All(string.IsNullOrWhiteSpace)));
+
+Console.WriteLine($"how many character(s) with no alias (Donkey Kong series)? {countNoAliasDonkeyKong}");
 
 
 
