@@ -111,7 +111,20 @@ int countNoAlias = characters
 
 Console.WriteLine($"There are {countNoAlias} characters with no alias across all series.");
 
+// List the character(s) with no alias (all series) - return character name, alias and series only.
+var charactersWithoutAlias = characters
+    .Where(c => c.Alias == null || !c.Alias.Any() || c.Alias.All(a => string.IsNullOrWhiteSpace(a)))
+    .Select(c => new
+    {
+        c.Name,
+        Alias = c.Alias == null ? "(null)" : string.Join(", ", c.Alias),
+        Series = string.Join(", ", c.Series)
+    });
 
+foreach (var character in charactersWithoutAlias)
+{
+    Console.WriteLine($"Name: {character.Name}, Alias: {character.Alias}, Series: {character.Series}");
+}
 
 
 
