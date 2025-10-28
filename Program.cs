@@ -12,8 +12,6 @@ characters.AddRange(marios);
 
 // display all characters
 Console.Clear();
-// display all characters
-Console.Clear();
 
 // bool Character1995 = characters.Any(c => c.YearCreated == 1995);
 // Console.WriteLine($"Are there characters created in 1995: {Character1995}");
@@ -31,7 +29,7 @@ Console.Clear();
 
 // how many characters in total (all series)?
 int count1981 = characters.Count(c => c.YearCreated == 1981);
-Console.WriteLine($"1.There are {count1981} characters created in 1981 all series");
+Console.WriteLine($"Here are {count1981} characters created in 1981 all series");
 
 //List the character(s) created in that 1981 (all series) - return character name and series only.
 var created1981Characters = characters
@@ -40,8 +38,14 @@ var created1981Characters = characters
 
 foreach (var character in created1981Characters)
 {
-    Console.WriteLine($"2. Name: {character.Name}, Series: {character.Series}");
+    Console.WriteLine($"Name: {character.Name}, Series: {character.Series}");
 }
+
+//How many character(s) were created in 1981 (Mario series)
+int count1981Mario = characters
+    .Count(c => c.YearCreated == 1981 && c.Series.Contains("Mario"));
+Console.WriteLine($"There are {count1981Mario} characters created in 1981 in the Mario series");
+
 
 
 
